@@ -1,0 +1,37 @@
+.layer{
+    background-color: #1abc9cde;
+    position: absolute;
+    top: 100;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* transition-duration: 2s;
+    transition-delay: 1s; */
+  }
+  .layer i{
+    font-size: 100px;
+    color: white;
+    display: none;
+  }
+  .rLayer{
+    transition: ease 1s;
+  }
+  .rLayer:hover .layer{
+    top: 0;
+  }
+  .rLayer:hover i{
+    display: block;
+  }
+
+.wrapper{
+    background-color: #4642428a;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    min-height: 750px;
+    /* display: none; */
+}
